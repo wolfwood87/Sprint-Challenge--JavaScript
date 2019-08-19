@@ -5,7 +5,30 @@
   Use this pattern to create your objects: 
   object name, diet, weight, length, period
 */
+const trex = {
+  name: `tyrannosaurus`,
+  diet: `carnivorous`,
+  weight: 7000 + `kg`,
+  length: 12 + `m`,
+  period: `Late Cretaceous`,
+  roar: "RAWERSRARARWERSARARARRRR!"
+}
 
+const steg = {
+  name: 'stegosaurus',
+  diet: `herbivorous`,
+  weight: 2000 + `kg`,
+  length: 9 + `m`,
+  period: `Late Jurassic`
+}
+
+const raptor = {
+  name: 'Velociraptor',
+  diet: `carnivorous`,
+  weight: 15 + `kg`,
+  length: 1.8 + `m`,
+  period: `Late Cretaceous`
+}
 // tyrannosaurus, carnivorous, 7000kg, 12m, Late Cretaceous
 
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
@@ -15,20 +38,20 @@
 // Using your dinosaur objects, log answers to these questions:
 
 // How much did tyrannosaurus weigh?
-console.log();
+console.log(trex.weight);
 
 // What was the diet of a velociraptor?
-console.log();
+console.log(raptor.diet);
 
 // How long was a stegosaurus?
-console.log();
+console.log(steg.length);
 
 // What time period did tyrannosaurus live in?
-console.log();
+console.log(trex.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-console.log();
+console.log(trex.roar);
 
 
 // ==== Arrays ====
